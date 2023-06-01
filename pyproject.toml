@@ -7,6 +7,7 @@ readme = "README.md"
 packages = [{include = "jsa"}]
 include = [
     { path = "jsa/client/**/*", format=["sdist", "wheel"] },
+    { path = "jsa/auth/**/*", format=["sdist", "wheel"] },
 ]
 
 [tool.poetry.dependencies]
