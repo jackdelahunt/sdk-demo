@@ -17,6 +17,7 @@ microsoft-kiota-http = "^0.4.3"
 microsoft-kiota-serialization-json = "^0.3.4"
 microsoft-kiota-serialization-text = "^0.2.0"
 urllib3 = "^2.0.2"
+requests = "^2.31.0"
 
 [tool.poetry.group.test.dependencies]
 pytest = "^7.3.1"

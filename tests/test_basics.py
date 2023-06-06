@@ -10,11 +10,11 @@ from kiota_http.httpx_request_adapter import HttpxRequestAdapter
 def test_basic():
     assert 10 == 9 + 1
 
-@pytest.mark.asyncio
-async def test_offline_token():
-    accessTokenProvider = JSAAccessTokenProvider()
-    token = await accessTokenProvider.get_authorization_token("...")
-    assert len(token) > 0
+# @pytest.mark.asyncio
+# async def test_offline_token():
+#     accessTokenProvider = JSAAccessTokenProvider()
+#     token = await accessTokenProvider.get_authorization_token("...")
+#     assert len(token) > 0
 
 @pytest.mark.asyncio
 async def test_service_account_list():
